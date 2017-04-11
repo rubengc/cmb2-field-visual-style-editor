@@ -1,4 +1,4 @@
-CMB2 Field Type: Position
+CMB2 Field Type: Visual Style Editor
 ==================
 
 Custom field for [CMB2](https://github.com/CMB2/CMB2) setup style from small set of controls.
