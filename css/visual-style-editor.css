@@ -1,0 +1,134 @@
+.cmb2-visual-style-editor {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-field-switch-all {
+    position: absolute;
+    right: 4px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-field-switch {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    width: 30px;
+    z-index: 1;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-field-switch .button {
+    vertical-align: baseline !important;
+    padding: 0px 5px 1px !important;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-field-switch .button .dashicons {
+    line-height: 26px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container {
+    position: relative;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.05);
+    padding: 50px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container > label {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    font-size: 11px;
+    padding: 4px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field {
+    position: absolute;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-all {
+    top: 10px;
+    left: 50px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-top {
+    top: 10px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-right {
+    right: 5px;
+    top: 50%;
+    margin-top: -12px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-bottom {
+    bottom: 10px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-left {
+    left: 5px;
+    top: 50%;
+    margin-top: -12px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-container .cmb2-visual-style-editor-field input {
+    width: 40px;
+    font-size: 11px;
+    margin: 0;
+    text-align: center;
+    padding: 4px;
+}
+
+.cmb2-visual-style-editor .cmb2-visual-style-editor-placeholder {
+    width: 180px;
+    text-align: center;
+    font-size: 25px;
+    padding: 6px 0 10px;
+    background: rgba(0,0,0,0.1);
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-single > .cmb2-visual-style-editor-field-switch .button i:before {
+    content: "\f211";
+}
+
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-multiple > .cmb2-visual-style-editor-field-switch .button i:before {
+    content: "\f506";
+}
+
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-multiple > .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-all {
+    display: none;
+}
+
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-single > .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-top,
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-single > .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-right,
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-single > .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-bottom,
+.cmb2-visual-style-editor-container.cmb2-visual-style-editor-single > .cmb2-visual-style-editor-field.cmb2-visual-style-editor-field-left {
+    display: none;
+}
+
+.cmb2-visual-style-editor-extra-options {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cmb2-visual-style-editor-extra-options label {
+    display: block;
+    padding: 5px 0;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.cmb2-visual-style-editor-extra-options label:first-child {
+    padding-top: 0;
+}
+
+.cmb2-visual-style-editor-extra-options .cmb2-visual-style-editor-field {
+    padding-bottom: 1em;
+}
