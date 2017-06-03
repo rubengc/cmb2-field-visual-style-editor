@@ -1,14 +1,18 @@
 <?php
-/*
-Plugin Name: CMB2 Field Type: Visual Style Editor
-Plugin URI: https://github.com/rubengc/cmb2-field-visual-style-editor
-GitHub Plugin URI: https://github.com/rubengc/cmb2-field-visual-style-editor
-Description: CMB2 field type to setup style from small set of controls.
-Version: 1.0.0
-Author: Ruben Garcia
-Author URI: http://rubengc.com/
-License: GPLv2+
-*/
+/**
+ * @package      CMB2\Field_Visual_Style_Editor
+ * @author       Tsunoa
+ * @copyright    Copyright (c) Tsunoa
+ *
+ * Plugin Name: CMB2 Field Type: Visual Style Editor
+ * Plugin URI: https://github.com/rubengc/cmb2-field-visual-style-editor
+ * GitHub Plugin URI: https://github.com/rubengc/cmb2-field-visual-style-editor
+ * Description: CMB2 field type to setup style from small set of controls.
+ * Version: 1.0.0
+ * Author: Tsunoa
+ * Author URI: https://tsunoa.com/
+ * License: GPLv2+
+ */
 
 
 // Exit if accessed directly
